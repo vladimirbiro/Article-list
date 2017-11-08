@@ -1,0 +1,20 @@
+{
+    "name": "vladimirbiro/article-manager",
+    "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "require": {
+        "nette/database": "^2.4",
+        "nette/di": "^2.4",
+        "nette/bootstrap": "^2.4",
+        "nette/robot-loader": "^3.0",
+        "tracy/tracy": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "Vladimír Bíro",
+            "email": "vladimir.biro@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "nette/tester": "^2.0"
+    }
+}
