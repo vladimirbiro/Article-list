@@ -1,5 +1,10 @@
 # Article-list
 
+**Inštalácia**
+```
+composer require vladimirbiro/article-manager:dev-master
+```
+
 **Vytvorenie tabulky produktov**
 
 ```
