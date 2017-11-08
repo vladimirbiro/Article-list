@@ -1,6 +1,6 @@
 # Article-list
 
-**Inštalácia balíka**
+**Inštalácia**
 ```
 composer require vladimirbiro/article-manager:dev-master
 ```
