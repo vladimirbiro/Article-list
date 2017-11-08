@@ -1,6 +1,6 @@
 # Article-list
 
-**Vytvorenie tabuĺky produktov**
+**Vytvorenie tabulky produktov**
 
 ```
 CREATE TABLE `article` (
