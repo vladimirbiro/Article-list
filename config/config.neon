@@ -1,0 +1,2 @@
+services:
+	- VladimirBiro\ArticleManager\ArticleList

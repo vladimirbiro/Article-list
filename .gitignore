@@ -30,3 +30,4 @@ Temporary Items
 
 /vendor/
 /temp/
+/config/config.local.neon

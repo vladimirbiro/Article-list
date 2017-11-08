@@ -11,29 +11,28 @@ $container = require __DIR__ . '/bootstrap.php';
 
 class Test extends Tester\TestCase
 {
-private $container;
+    private $container;
+    private $articleList;
 
 
     public function __construct(Nette\DI\Container $container)
     {
         $this->container = $container;
+        $this->articleList = $this->container->getByType('VladimirBiro\ArticleManager\ArticleList');
     }
 
 
     public function setUp()
     {
+        $this->articleList->setArticles();
     }
 
 
 
     public function testUserManager()
     {
-
-        $articleList = $this->container->getByType('VladimirBiro\ArticleManager\ArticleList');
-        $return = $articleList->testTest();
-
-        Assert::same('Hello John', $return);
-
+        $return = $this->articleList->getArticleList();
+        Assert::same('Hello World', $return);
     }
 
 }

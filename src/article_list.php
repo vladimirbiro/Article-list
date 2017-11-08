@@ -58,18 +58,6 @@ class ArticleList
 
 
 
-    /**
-     * Test test
-     */
-    public function testTest()
-    {
-        return 'Hello World';
-    }
-
-
-
-
-
 
     /**
      * Vyresetuj kriteria na generovanie zoznamu artiklov
