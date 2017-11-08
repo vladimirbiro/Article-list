@@ -16,7 +16,7 @@ class Test extends Tester\TestCase
 
 	public function __construct(Nette\DI\Container $container)
 	{
-		$this->container = $container;
+        $this->container = $container;
 	}
 
 
@@ -30,9 +30,9 @@ class Test extends Tester\TestCase
 	{
 
         $articleList = $this->container->getByType('VladimirBiro\ArticleManager\ArticleList');
-	    $return = $articleList->testTest();
+        $return = $articleList->testTest();
 
-	    Assert::same('Hello John', $return);
+        Assert::same('Hello John', $return);
 	}
 
 }
