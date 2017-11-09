@@ -9,24 +9,16 @@ class ArticleList
     /** @var \Nette\Database\Context */
     private $database;
 
-
-
     // Konstanty
     const DEFAULT_LIMIT = 20,
           DEFAULT_SORT = 'time_add DESC',
           DEFAULT_OFFSET = 0,
           DEFAULT_ARTICLE_TABLE = 'article';
 
-
-
     private $articleTable = self::DEFAULT_ARTICLE_TABLE;
-
-
 
     private $articleList,
             $article;
-
-
 
     // Defaultne nastavenia
     private $public = 1;
@@ -43,8 +35,6 @@ class ArticleList
 
 
 
-
-
     /**
      * ArticleManager constructor.
      * @param Context $context
@@ -53,9 +43,6 @@ class ArticleList
     {
         $this->database = $context;
     }
-
-
-
 
 
 
@@ -72,9 +59,6 @@ class ArticleList
         $this->fulltext = null;
         $this->offset = self::DEFAULT_OFFSET;
     }
-
-
-
 
 
 
@@ -134,6 +118,7 @@ class ArticleList
     }
 
 
+
     /**
      * Vrat zoznam artiklov
      * @return mixed
@@ -142,9 +127,6 @@ class ArticleList
     {
         return $this->articleList;
     }
-
-
-
 
 
 
@@ -169,6 +151,7 @@ class ArticleList
     }
 
 
+
     /**
      * Vrat artikel
      * @return mixed
@@ -177,10 +160,6 @@ class ArticleList
     {
         return $this->article;
     }
-
-
-
-
 
 
 
