@@ -33,3 +33,4 @@ Temporary Items
 /config/config.local.neon
 /.idea/
 /tests/output/
+/composer.lock
