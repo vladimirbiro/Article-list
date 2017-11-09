@@ -17,5 +17,8 @@
     "require-dev": {
         "nette/tester": "^2.0"
     },
+    "autoload": {
+        "classmap": ["src/"]
+    },
     "minimum-stability": "dev"
 }

@@ -184,6 +184,18 @@ class ArticleList
 
 
 
+    public function setArticleTable($articleTable)
+    {
+        $this->articleTable = $articleTable;
+    }
+
+    public function getArticleTable()
+    {
+        return $this->articleTable;
+    }
+
+
+
     public function setFullText($fulltext)
     {
         $this->fulltext = $fulltext;
